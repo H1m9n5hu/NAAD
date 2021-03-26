@@ -11,8 +11,8 @@ public class J06 {
         char[] vowel = {'A','E','I','O','U','a','i','e','o','u'};
         boolean result = false;
 
-        for ( int i = 0; i < vowel.length; i++ )
-            if ( ch == vowel[i] ) {
+        for (char c : vowel)
+            if (ch == c) {
                 result = true;
                 break;
             }
