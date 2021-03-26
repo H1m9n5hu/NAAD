@@ -10,12 +10,13 @@ public class J06 {
         char ch = scanner.next().charAt(0);
         char[] vowel = {'A','E','I','O','U','a','i','e','o','u'};
         boolean result = false;
-        for ( int i = 0; i < vowel.length; i++ ) {
+
+        for ( int i = 0; i < vowel.length; i++ )
             if ( ch == vowel[i] ) {
                 result = true;
                 break;
             }
-        }
+
         if (result)
             System.out.print(ch + " is a Vowel Alphabet.");
         else
