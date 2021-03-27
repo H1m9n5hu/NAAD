@@ -28,7 +28,7 @@ public class J02 {
         System.out.println("Second Array is " + Arrays.toString(array2));
 
         int[] array = new int[sizeOfFirstArray1+sizeOfFirstArray2];
-        System.arraycopy(array1, 0, array, 0, sizeOfFirstArray1); // Here,Function 'System.arraycopy() is used to Concatenate two arrays.
+        System.arraycopy(array1, 0, array, 0, sizeOfFirstArray1); // Here,Function 'System.arraycopy()' is used to Concatenate two arrays.
         System.arraycopy(array2, 0, array, sizeOfFirstArray1, sizeOfFirstArray2);
         System.out.print("Resultant Array,After Merging first and second array is " + Arrays.toString(array));
 
