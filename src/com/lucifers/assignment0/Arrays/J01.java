@@ -3,7 +3,7 @@ package com.lucifers.assignment0.Arrays;
 
 import java.util.Scanner;
 
-public class J08 {
+public class J01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a Size of Array (Number of Elements) : ");
