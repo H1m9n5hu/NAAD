@@ -1,5 +1,5 @@
 //Program to Calculate Average Using Arrays.
-package com.lucifers.assignment0.Arrays;
+package com.lucifers.Assignment_0.Arrays;
 
 import java.util.Scanner;
 
