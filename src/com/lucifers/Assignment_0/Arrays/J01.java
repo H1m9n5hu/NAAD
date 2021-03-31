@@ -1,4 +1,4 @@
-//Program to Calculate Average Using.
+//Program to Calculate Average.
 package com.lucifers.Assignment_0.Arrays;
 
 import java.util.Scanner;
